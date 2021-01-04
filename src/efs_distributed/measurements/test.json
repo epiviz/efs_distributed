@@ -1,0 +1,444 @@
+[
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940764/results/SRR9940764_1.nodup_x_SRR9940768_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "NEUNnuclei H3K27ac peaks",
+    "id": "internal_nott-NEUNnuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "NEUNnuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940765/results/SRR9940765_1.nodup_x_SRR9940768_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "NEUNnuclei H3K27ac peaks",
+    "id": "internal_nott-NEUNnuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "NEUNnuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940766/results/SRR9940766_1.nodup_x_SRR9940769_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "NEUNnuclei H3K4me3 peaks",
+    "id": "internal_nott-NEUNnuclei_H3K4me3_peaks",
+    "annotation": {
+      "type": "NEUNnuclei",
+      "source": "internal Nott",
+      "mark": "H3K4me3",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940770/results/SRR9940770_1.nodup_x_SRR9940774_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "microglia H3K27ac peaks",
+    "id": "internal_nott-microglia_H3K27ac_peaks",
+    "annotation": {
+      "type": "microglia",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940771/results/SRR9940771_1.nodup_x_SRR9940774_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "microglia H3K27ac peaks",
+    "id": "internal_nott-microglia_H3K27ac_peaks",
+    "annotation": {
+      "type": "microglia",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940772/results/SRR9940772_1.nodup_x_SRR9940775_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "microglia H3K4me3 peaks",
+    "id": "internal_nott-microglia_H3K4me3_peaks",
+    "annotation": {
+      "type": "microglia",
+      "source": "internal Nott",
+      "mark": "H3K4me3",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940773/results/SRR9940773_1.nodup_x_SRR9940775_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "microglia H3K4me3 peaks",
+    "id": "internal_nott-microglia_H3K4me3_peaks",
+    "annotation": {
+      "type": "microglia",
+      "source": "internal Nott",
+      "mark": "H3K4me3",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940776/results/SRR9940776_1.nodup_x_SRR9940779_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "OLIG2nuclei H3K27ac peaks",
+    "id": "internal_nott-OLIG2nuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "OLIG2nuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940777/results/SRR9940777_1.nodup_x_SRR9940779_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "OLIG2nuclei H3K27ac peaks",
+    "id": "internal_nott-OLIG2nuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "OLIG2nuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940778/results/SRR9940778_1.nodup_x_SRR9940780_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "OLIG2nuclei H3K4me3 peaks",
+    "id": "internal_nott-OLIG2nuclei_H3K4me3_peaks",
+    "annotation": {
+      "type": "OLIG2nuclei",
+      "source": "internal Nott",
+      "mark": "H3K4me3",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940781/results/SRR9940781_1.nodup_x_SRR9940784_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "LHX2nuclei H3K27ac peaks",
+    "id": "internal_nott-LHX2nuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "LHX2nuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940782/results/SRR9940782_1.nodup_x_SRR9940784_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "LHX2nuclei H3K27ac peaks",
+    "id": "internal_nott-LHX2nuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "LHX2nuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940783/results/SRR9940783_1.nodup_x_SRR9940785_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "LHX2nuclei H3K4me3 peaks",
+    "id": "internal_nott-LHX2nuclei_H3K4me3_peaks",
+    "annotation": {
+      "type": "LHX2nuclei",
+      "source": "internal Nott",
+      "mark": "H3K4me3",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940786/results/SRR9940786_1.nodup_x_SRR9940789_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "NEUNnuclei H3K27ac peaks",
+    "id": "internal_nott-NEUNnuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "NEUNnuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940787/results/SRR9940787_1.nodup_x_SRR9940789_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "NEUNnuclei H3K27ac peaks",
+    "id": "internal_nott-NEUNnuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "NEUNnuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940788/results/SRR9940788_1.nodup_x_SRR9940790_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "NEUNnuclei H3K4me3 peaks",
+    "id": "internal_nott-NEUNnuclei_H3K4me3_peaks",
+    "annotation": {
+      "type": "NEUNnuclei",
+      "source": "internal Nott",
+      "mark": "H3K4me3",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940791/results/SRR9940791_1.nodup_x_SRR9940793_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "microglia H3K27ac peaks",
+    "id": "internal_nott-microglia_H3K27ac_peaks",
+    "annotation": {
+      "type": "microglia",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940792/results/SRR9940792_1.nodup_x_SRR9940793_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "microglia H3K27ac peaks",
+    "id": "internal_nott-microglia_H3K27ac_peaks",
+    "annotation": {
+      "type": "microglia",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940794/results/SRR9940794_1.nodup_x_SRR9940796_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "LHX2nuclei H3K27ac peaks",
+    "id": "internal_nott-LHX2nuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "LHX2nuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940795/results/SRR9940795_1.nodup_x_SRR9940796_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "LHX2nuclei H3K27ac peaks",
+    "id": "internal_nott-LHX2nuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "LHX2nuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940797/results/SRR9940797_1.nodup_x_SRR9940799_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "NEUNnuclei H3K27ac peaks",
+    "id": "internal_nott-NEUNnuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "NEUNnuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940798/results/SRR9940798_1.nodup_x_SRR9940799_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "NEUNnuclei H3K27ac peaks",
+    "id": "internal_nott-NEUNnuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "NEUNnuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940800/results/SRR9940800_1.nodup_x_SRR9940802_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "microglia H3K27ac peaks",
+    "id": "internal_nott-microglia_H3K27ac_peaks",
+    "annotation": {
+      "type": "microglia",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940801/results/SRR9940801_1.nodup_x_SRR9940802_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "microglia H3K27ac peaks",
+    "id": "internal_nott-microglia_H3K27ac_peaks",
+    "annotation": {
+      "type": "microglia",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940803/results/SRR9940803_1.nodup_x_SRR9940805_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "OLIG2nuclei H3K27ac peaks",
+    "id": "internal_nott-OLIG2nuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "OLIG2nuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940804/results/SRR9940804_1.nodup_x_SRR9940805_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "OLIG2nuclei H3K27ac peaks",
+    "id": "internal_nott-OLIG2nuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "OLIG2nuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940806/results/SRR9940806_1.nodup_x_SRR9940808_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "NEUNnuclei H3K27ac peaks",
+    "id": "internal_nott-NEUNnuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "NEUNnuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940807/results/SRR9940807_1.nodup_x_SRR9940808_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "NEUNnuclei H3K27ac peaks",
+    "id": "internal_nott-NEUNnuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "NEUNnuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940809/results/SRR9940809_1.nodup_x_SRR9940811_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "microglia H3K27ac peaks",
+    "id": "internal_nott-microglia_H3K27ac_peaks",
+    "annotation": {
+      "type": "microglia",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940812/results/SRR9940812_1.nodup_x_SRR9940816_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "OLIG2nuclei H3K27ac peaks",
+    "id": "internal_nott-OLIG2nuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "OLIG2nuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940814/results/SRR9940814_1.nodup_x_SRR9940817_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "OLIG2nuclei H3K4me3 peaks",
+    "id": "internal_nott-OLIG2nuclei_H3K4me3_peaks",
+    "annotation": {
+      "type": "OLIG2nuclei",
+      "source": "internal Nott",
+      "mark": "H3K4me3",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940818/results/SRR9940818_1.nodup_x_SRR9940819_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "LHX2nuclei H3K27ac peaks",
+    "id": "internal_nott-LHX2nuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "LHX2nuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940820/results/SRR9940820_1.nodup_x_SRR9940823_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "OLIG2nuclei H3K27ac peaks",
+    "id": "internal_nott-OLIG2nuclei_H3K27ac_peaks",
+    "annotation": {
+      "type": "OLIG2nuclei",
+      "source": "internal Nott",
+      "mark": "H3K27ac",
+      "kind": "peaks"
+    }
+  },
+  {
+    "path": "/gne/data/bioinfo/firedb/congee-results/encode_chip-seq/nott_chip_seq_17Aug2020/SRR9940822/results/SRR9940822_1.nodup_x_SRR9940824_1.nodup.pval0.01.500K.bfilt.narrowPeak.bb",
+    "file_type": "bigbed",
+    "datatype": "annotation",
+    "name": "OLIG2nuclei H3K4me3 peaks",
+    "id": "internal_nott-OLIG2nuclei_H3K4me3_peaks",
+    "annotation": {
+      "type": "OLIG2nuclei",
+      "source": "internal Nott",
+      "mark": "H3K4me3",
+      "kind": "peaks"
+    }
+  }
+]
