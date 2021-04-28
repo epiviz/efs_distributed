@@ -46,6 +46,14 @@ def test_bin_rows():
     rows = len(df)
     assert rows == 100
 
+def test_bin_rows_from_file():
+    mMgr = MeasurementManager()
+    fms = mMgr.import_files("test_json.json", genome="hg19")
+    res = asyncio.run(fms[0].get_data("chr1", 1000000, 1002000, bins=100))
+    df = res[0]
+    rows = len(df)
+    assert rows == 100
+
 def test_mean():
     mMgr = MeasurementManager()
     fms = mMgr.import_records(records, genome="hg19")
