@@ -1,4 +1,4 @@
-from parser import BigBed, BigWig, SamFile, TbxFile, TranscriptTbxFile, BamFile, GtfFile, GtfParsedFile, GWASBigBedPval, GWASBigBedPIP, TileDB, InteractionBigBed
+from efs_parser import BigBed, BigWig, SamFile, TbxFile, TranscriptTbxFile, BamFile, GtfFile, GtfParsedFile, GWASBigBedPval, GWASBigBedPIP, TileDB, InteractionBigBed
 
 def create_parser_object(format, source):
     """
@@ -13,14 +13,14 @@ def create_parser_object(format, source):
     """  
 
     req_manager = {
-        "BigWig": BigWig,
-        "bigwig": BigWig,
-        "bigWig": BigWig,
-        "bw": BigWig,
-        "BigBed": BigBed,
-        "bigbed": BigBed,
-        "bigBed": BigBed,
-        "bb": BigBed,
+        "BigWig": BigWig.BigWig,
+        "bigwig": BigWig.BigWig,
+        "bigWig": BigWig.BigWig,
+        "bw": BigWig.BigWig,
+        "BigBed": BigBed.BigBed,
+        "bigbed": BigBed.BigBed,
+        "bigBed": BigBed.BigBed,
+        "bb": BigBed.BigBed,
         "sam": SamFile,
         "bam": BamFile,
         "tbx": TbxFile,

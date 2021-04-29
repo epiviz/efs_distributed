@@ -1,7 +1,7 @@
 # from multiprocessing import Process, Manager, Lock
 import pickle
 # import threading
-from efs_parser.utils import create_parser_object
+from .utils import create_parser_object
 import os
 from datetime import datetime, timedelta
 import ujson
@@ -53,7 +53,6 @@ class FileHandlerProcess(object):
         # self.cache = Cache(Cache.MEMORY, serializer=PickleSerializer())
         # self.futures = {}
     
-
     def setRecord(self, name, fileObj, fileType):
         """add or update `records` with new file object
 
@@ -138,10 +137,10 @@ class FileHandlerProcess(object):
 
     async def get_dask_actor(self, fileClass, fileName):
         try:
-            fileFuture = self.client.submit(fileClass, fileName, actor=True)
-            fileObj = await self.client.gather(fileFuture)
+            fileObj = await self.client.submit(fileClass, fileName, actor=True)
             return fileObj
         except Exception as e:
+            print(str(e))
             logging.debug("Handler: get_dask_actor Exception & resubmit %s\n%s\t%s" %(str(e), fileName,  "handleFile"))
             return await self.get_dask_actor(fileClass, fileName)
 
@@ -151,6 +150,7 @@ class FileHandlerProcess(object):
             await self.client.wait_for_workers(1)
             fileObj = await self.get_dask_actor(fileClass, fileName)
             self.setRecord(fileName, fileObj, fileType)
+
         fileObj = await self.getRecord(fileName)
         
         objFlag = await self.check_who_has_obj(fileObj)
@@ -160,7 +160,7 @@ class FileHandlerProcess(object):
             return await self.get_file_object(fileName, fileType)   
         return fileObj
 
-    @cached(ttl=None, cache=Cache.MEMORY, serializer=PickleSerializer(), namespace="handlefile")
+    # @cached(ttl=None, cache=Cache.MEMORY, serializer=PickleSerializer(), namespace="handlefile")
     async def handleFile(self, fileName, fileType, chr, start, end, bins = 2000):
         """submit tasks to the dask client
 
@@ -170,16 +170,16 @@ class FileHandlerProcess(object):
             chr: chromosome
             start: genomic start
             end: genomic end
-            points: number of base-pairse to group per bin
+            points: number of base-pairs to group per bin
         """
         logging.debug("Handler: %s\t%s" %(fileName,  "handleFile"))
-        
         try:
             fileObj = await self.get_file_object(fileName, fileType)
             await self.client.wait_for_workers(1)
             data, err = await fileObj.getRange(chr, start, end, bins)
             return data, err
         except Exception as e:
+            print(str(e))
             #  a way of resilience
             logging.debug("Handler: Exception & resubmit %s\n%s\t%s" %(str(e), fileName,  "handleFile"))
             if fileName in self.records:
@@ -226,7 +226,7 @@ class FileHandlerProcess(object):
             data, err = await fileObj.search_gene(query, maxResults)
         return data, err
 
-    @cached(ttl=None, cache=Cache.MEMORY, serializer=PickleSerializer(), namespace="binfile")
+    # @cached(ttl=None, cache=Cache.MEMORY, serializer=PickleSerializer(), namespace="binfile")
     async def binFileData(self, fileName, fileType, data, chr, start, end, bins, columns, metadata):
         """submit tasks to the dask client
         """
