@@ -2,7 +2,6 @@ from aiocache import cached, SimpleMemoryCache
 from aiocache.serializers import JsonSerializer
 import pandas as pd
 from .measurementClass import DbMeasurement, FileMeasurement, ComputedMeasurement
-from efs_trackhub import TrackHub
 from efs_parser import GtfParsedFile, TbxFile, BigBed
 import ujson
 import requests
@@ -267,7 +266,7 @@ class MeasurementManager(object):
             json_string = f.read()
 
         records = ujson.loads(json_string)
-        self.import_records(records, fileHandler=fileHandler, genome=genome)
+        return self.import_records(records, fileHandler=fileHandler, genome=genome)
 
     def import_records(self, records, fileHandler=None, genome=None):
         """Import measurements from a list of records (usually from a decoded json string)
